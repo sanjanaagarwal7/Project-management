@@ -1,0 +1,98 @@
+.project{
+    margin-top:8vh;
+    display:flex;
+    flex-direction:column;
+   
+    height:88vh;
+    width:70vw;
+}
+.project #title,#tasks{
+    height:44vh
+}
+.project #title{
+    border-bottom:1px solid rgba(0, 0, 0, 0.406);
+}
+.project #title h1{
+    display:inline;
+    font-size:7vh;
+    padding-left:2vw;
+    padding-top:4vw;
+    color:rgba(0, 0, 0, 0.696);
+    
+}
+.project #title #date{
+    font-size:2.8vh;
+    padding-left:2vw;
+    padding-top:0.25vw;
+    color:rgba(0, 0, 0, 0.34);
+    
+}
+.project #title #description{
+    font-size:2.8vh;
+    padding-left:2vw;
+    padding-top:4vh;
+    color:rgba(0, 0, 0, 0.797);
+    
+}
+#tasks h1{
+
+    font-size:5vh;
+    padding-left:2vw;
+    padding-top:2vh;
+    color:rgba(0, 0, 0, 0.765);
+}
+#tasks{
+    display:flex;
+    flex-direction:column;
+}
+#tasks #input{
+    padding-left:2vw;
+    padding-top:4vh;
+}
+#tasks  input{
+    height:4vh;
+    width:20vw;
+    background-color:rgba(0, 0, 0, 0.199);
+    border:0;
+}
+#input button{
+    margin-left:2vw;
+    border:0px;
+    background-color:white;
+}
+#taskList{
+    margin-top:5vh;
+    height:22vh;
+    align-self:center;
+    width:40vw;
+    background-color:rgba(0, 0, 0, 0.1);
+    padding:2vh
+}
+#taskList div{
+   
+    font-size:4vh
+}
+#taskList #clear{
+   text-align:center;
+   color:black;
+   width:5vw;
+   border:0;
+   float:right;
+   background-color:rgba(0, 0, 0, 0);
+   
+}
+#taskList li{
+    font-size:2.8vh;
+    
+    list-style-type:none;
+}
+#tasklist ul{
+    margin-top:4vh;
+}
+.project #title button{
+    float:right;
+    height:8vh;
+    font-size:2.8vh;
+    border:0;
+    background-color:rgba(0, 0, 0, 0);
+}
